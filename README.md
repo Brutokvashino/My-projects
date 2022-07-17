@@ -1,11 +1,7 @@
-# Random String Generator
-Using PHP in a window (using w3schools.com) and the sample arrays, you can build your own adventure story.
+#PHP Letter by Letter Replacement
 
-STEP 1:
-Copy the desired list of items and paste it into the code area below.
+Step 1: Copy the code.
 
-STEP 2:
-Press the Run button, and the result will appear in the window below.
+Step 2: Run it using Python on your own computer, on the w3schools.com Python editor, or any other source. 
 
-STEP 3:
-Write your story down and keep creating.
+Step 3: Change the value for the txt variable to experiment!
