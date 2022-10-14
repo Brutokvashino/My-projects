@@ -1,0 +1,1726 @@
+Certifications:
+Boson CCNA
+https://boson.com/Account/Default.aspx?ReturnUrl=%2fAccount%2fSpecialOffers%3feid%3da6ad3803-8de2-4619-946c-538afb7f555f&eid=a6ad3803-8de2-4619-946c-538afb7f555f
+https://www.boson.com/network-simulator/ccna-200-301-cisco-network-simulator?eid=a6ad3803-8de2-4619-946c-538afb7f555f
+CCNA Exam
+CompTIA
+https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html
+https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=EDU-JUN-JOL-JUNOS
+https://www.comptia.org/training/certmaster-learn/a
+https://learningnetwork.cisco.com/s/ccna-exam-topics?ccid=ccna&dtid=website&oid=cdc-ccna-exam
+https://store.comptia.org/comptia-a-exam-220-1101-or-220-1102-voucher/p/APL-11C-TSTV-22-C?location=northamerica&_ga=2.264619279.1204899175.1664230850-1407807124.1662466395&_gac=1.90457576.1664230850.CjwKCAjwm8WZBhBUEiwA178UnJ7cQDezYg79ZkJVkK9KtNubOXPyhgP7RM3ZNP5ZtDUvJJ0ulcQzPBoCQmIQAvD_BwE
+
+
+Tools:
+Linux Manual
+Windows Terminal Manual (under construction)
+Ubuntu Terminal Manual (under construction)
+VirtualBox
+Vmware
+https://www.gns3.com/
+Wireshark
+Ubuntu
+Kali Linux
+Jwt.io
+gchq.github.io/CyberChef/
+Cisco Packet Tracer (with free account on netcad)
+
+Website Analysis:
+https://www.who-hosts-this.com/
+https://nordvpn.com/ip-lookup/
+https://transparencyreport.google.com/safe-browsing/search?hl=en
+https://www.ssltrust.com.au/ssl-tools/ssl-checker
+https://observatory.mozilla.org/
+Speedtest.net or fast.com?
+
+Games:
+https://nandgame.com/
+https://copy.sh/
+The World of Haiku (Steam)
+Hacknet (Steam)
+https://picoctf.org/
+
+Learning:
+Getting Started with the Web
+ComputerHope
+W3schools
+Udemy
+Teachable
+CompTIA
+https://reddit.com/r/cybersecurity
+https://www.reddit.com/r/HowToHack
+https://www.reddit.com/r/msp/
+https://en.wikipedia.org/wiki/ASCII
+Reddit/ Troubleshooting
+Network Chuck CCNA Course
+
+News:
+scitech daily.com unusual microcrystals discovered in meteorite dust
+Npr how the us made a battery discovery then gave the tech to china
+Phys.org dna scientists find solution to building superconductor
+Space.com planets made of dark matter
+Apnews.com un nuclear chief ukraine nuclear plant is out of control
+the hill.com long covid comes in three forms
+
+Server:
+https://www.youtube.com/watch?v=zPmqbtKwtgw server from old windows with Pulseway
+
+Virtualbox:
+[Installation]
+You will need at least 4GB of RAM, 10GB HD free.
+Installation features will use about 948KB of HD
+In BIOS settings, is virtualization enabled? If not, reboot, while there go to your Boot Settings under Advanced and enable virtualization.
+You may want the Extension Pack provided by VirtualBox for the same version you already installed. 
+VB will probably show GB in binary MBs so each GB = 1024MB
+Check to see how much RAM you normally are using. With 8GB RAM, you can give 2GB to the VM
+It will recommend 10GB HD space. You can go into settings after making your VM and boost that if you want to. You can also increase the number of CPUs for the VM if your machine has a lot of CPUs. 
+Within Storage, you must select whatever OS you downloaded for the empty the Secondary Optical Disk option, so that it can boot using that OS.
+After installing the OS, you want to remove whatever .iso file is in the Secondary Optical Disk storage
+Under Machine options, using NAT, you can connect with the internet.
+VMs will not be able to copy clipboard or files unless allowed in features
+[Features]
+Right Ctrl may be the default Host button to allow you to return to controlling your host computer.
+You can press right ctrl + F to exit full screen mode.
+You can select Auto-scaled output on your Virtual Screen View setting.
+VB allows you to save the state of your virtual computer to continue wherever you left off. 
+Network Chuck explains VirtualBox
+https://www.reddit.com/r/virtualbox/
+
+Ubuntu:
+Ubuntu is a Linux-type OS
+
+History:
+Bash history is stored in different places depending on if “Shell” was used or “Z-Shell” 
+Manage Linux hist
+
+MySQL:
+Make your first SQL db
+
+BIOS:
+When booting device, continuously press F12 (Razer), F8, F7, F2 (ASUS), or Esc to access the BIOS options *On ASUS, F2 gives a more in-depth admin view while Esc lets you select how to boot the device.
+Enable virtualization under the Advanced tab, may look like (cpu config:) VMX / Intel / AMDv / VTX
+
+Can adjust order of the booting devices
+
+Booting order (Macintosh and Windows)
+Power good, CPU, POST (power on self test), boot loader, OS
+
+Windows:
+However, S Mode does not allow third-party installations. 
+The command prompt for Windows computers is called Windows Terminal.
+
+Navigating Commands:
+Powermetrics
+Hostname
+Hostinfo
+Whoami
+Pwd
+Kill
+Ls -la
+Ls
+Cd (..)
+Mkdir
+Curl [addr/ip]
+Vi
+Nano
+Exit
+
+Troubleshooting Commands:
+arp -a 
+netstat 
+netstat -anb 
+lsof -i 
+ipconfig getiflist 
+ipconfig getifaddr en1 
+ipconfig getifaddr en0 
+nslookup [addr/ip] 
+ipconfig /release 
+ipconfig /renew
+Fs-usage
+Top
+
+Troubleshooting Methodology:
+1. Identify the problem
+2. Establish a theory for possible cause of failure
+3. Test theory to identify the actual cause of failure
+4. Establish/draft a plan for solving the issue + execute the plan
+5. Verify full system functionality, if needed: draft another plan
+6. Document the process
+
+Migrating:
+Windows:
+USMT user state migration tool, transfers a lot of users at once
+Windows Easy Transfer, transfers user data and state for one machine
+UDMT user data migration tool?
+
+
+echo $items[array_rand($items)];
+
+
+
+function makeid(length) { var result = ''; var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'; var charactersLength = characters.length; for ( var i = 0; i < length; i++ ) { result += characters.charAt(Math.floor(Math.random() * charactersLength)); } return result; } console.log(makeid(5));
+ Run code snippet
+ 
+
+
+<script> //python
+function selectionSort(array)
+	for i = 0 to end of array
+    
+    	smallest = i
+        for indez = i + 1 to end of array
+        	if array item index < array item smallest
+            	smallest = index
+            end if
+        next
+        
+        swap array item at index and smallest
+        
+        next
+    return array
+
+https://www.tecmint.com/linux-command-line-tools-for-downloading-files/
+https://en.wikipedia.org/wiki/File_Transfer_Protocol
+https://en.wikipedia.org/wiki/Transport_Layer_Security
+https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol
+https://www.wired.com/story/north-korea-hacker-internet-outage/
+https://www.wired.com/story/trickbot-malware-group-internal-messages/
+https://www.wired.com/story/safari-flaws-webcam-online-accounts-mic/
+https://www.wired.com/story/belarus-railways-ransomware-hack-cyber-partisans/
+https://www.wired.com/story/crypto-hack-nso-group-security-news/
+https://www.wired.com/story/russia-ukraine-destructive-cyberattacks-ransomware-data-wiper/
+https://www.wired.com/story/russia-revil-ransomware-arrests-ukraine/
+https://www.wired.com/story/nso-group-pegasus-el-salvador/
+https://www.wired.com/story/norton-antivirus-cryptominer-nft-thefts-security-roundup/
+https://www.wired.com/story/zloader-microsoft-signature-verification-hack/
+https://www.idexx.com/en/blogs/cornerstone-news/tip-of-the-month-click-with-confidence/
+https://bootcamp.berkeley.edu/blog/follow-along-modify-this-article-with-inspect-element/
+https://zapier.com/blog/inspect-element-tutorial/
+https://www.wikihow.com/Inspect-Element-on-Chrome
+https://www.quora.com/How-do-you-unblock-inspect-element
+
+Notes:
+Pass hashes 
+Check nmap and other command attributes
+Pass dehash attack
+mimicat
+LAPS
+Psexec.exe 
+psexec.exe -s -i -d cmd.exe // 
+Mark Russinovich sysinternals.com
+Cd .. is same as cd/
+CQCat.exe
+CQHashDumpv2.exe
+Passdehash
+Mimikatz
+nt hash is vulnerability bc Windows single sign on
+Ssrf local host ftp
+Tmux
+Nmap, 
+Gobuster
+Wc check characters
+Static vs dynamic or php
+Repeater app to validate
+
+Wifi router, signal booster, mesh network
+Higher better, central, away from walls for signal strength
+Frequency band 2.4 ghz 5 ghz
+
+192.168.0/1/2.1 info/Login.html,, Home.html,,, Internet.html,,, WiFi.html
+Wireless ssid
+Wireless analyzer
+
+Threat simulator
+
+Apt29
+Wps
+
+Web traffic keyword optimization <meta name=”keywords” content=”BLABLA”
+WAM uplink 
+
+Glossary:
+Network = Netzwerk
+Source port = der Quellport, le port source
+Destination Port (dst) = der Zielport, le port de destination
+Request = die Anfrage
+Packets = die Pakete
+Password (passwd) = Passwort
+Kernel = first section of OS to load into memory
+Monolithic = self contained
+Linux = a kind of monolithic kernel, open-source
+Apache = open-source web server
+DNS = Domain name System
+ARP = Address Resolution Protocol (is cached for quicker calls later) translates between Layer 2 MAC addresses and Layer 3 IP addresses, no request for authentication [this is a vulnerability]
+Arp Poisoning = /spoofing used with denial of service, man in the middle, or session hijacking, used within the LAN network (so network entry already required)
+CRUD Create Read Update Delete
+OODA
+https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst_pon/software/configuration_guide/sec/b-gpon-config-security/preventing_arf_spoofing_and_flood_attack.html
+
+Wireshark - can survey internet traffic
+Kali - can use nmap, arp poisoning, ettercap
+Sudo = temporarily get root privilege, is not just for macs
+ettercap = ma in the middle, all data transactions go through this comp before out into the world, used with Wireshark
+MAC address = hardware address for all computers or devices, comes before IP
+
+Commands (Kali):
+Nmap -sP [ip address]
+Sudo 
+Nmap -sA = an aggressive scan, creates a lot of traffic
+-p- = for ports
+-sS = port scan (still legal)
+Man ettercap
+Sudo ettercap
+Arp poisoning
+​​
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_______HISTORY_______________________________________________________
+
+1969 - ARPANET is invented by Dep. of Defense
+
+
+_______NETWORK_______________________________________________________
+
+Networking notes:
+Companies: AT&T (Motorola), Cisco, Arris, Netgear
+Modem: (AT&T?) Motorola Surfboard
+Server Software: NginX, 
+Service: Pingdom (uptime)
+Hosts: AMZ, Azure, Linode, Google, Apache, Hostgator, Godaddy
+Servers: Apache
+OS: Ubuntu, Linux, Red Star OS (NKorea)
+
+Speeds:
+Modulation scheme = BPSK to 256-QAM
+Standard
+Freq. Band
+Bandwidth
+Channel Arch.
+Max Data Rate
+Range
+CABLE
+Dial-Up 
+
+
+
+
+
+
+
+
+56 Kbps
+
+
+CABLE
+Fixed wire
+
+
+
+
+
+
+50mbps
+100 Mbps
+1 Gbps
+
+
+CABLE
+DSL
+
+
+
+
+
+
+
+
+1.4/24 Mbps
+100 Mbps
+Max 3 miles
+SAT
+Satellite 
+
+
+
+
+
+
+100 Mbps
+
+
+Wireless
+802.11, (channel arch. DSSS, FHSS)
+2.4 GHz
+
+
+
+
+ 2 Mbps
+
+
+802.11a (1999), 54mbps, 5Ghz
+
+
+5 GHz
+
+
+
+
+54 Mbps
+
+
+802.11b (1999)
+2.4 GHz
+
+
+
+
+11 Mbps
+
+
+802.11g (2003)
+2.4 GHz
+
+
+
+
+54 Mbps
+
+
+802.11n (2009) MIMO
+2.4 GHz
+5 GHz
+20 + 20 MHz
+= 40 MHz
+
+
+108 Mbps
+600 Mbps
+
+
+802.11ac (‘12) OFDMA
+MU-MIMO
+(Wi-Fi 6E)
+2.4 GHz?
+
+5 GHz
+(6 GHz)
+Channel bonding 
+to 160 MHz
+
+
+500 Mbps 
+per channel
+to 3.5 Gbps
+
+
+802.11ah
+1MHz, 2MHz, 4MHz, 8MHz, 16MHz, 900MHz
+
+
+
+
+40 Mbps
+
+
+802.11ax
+Wi-Fi 6
+2.4 GHz
+5 GHz
+
+
+
+
+9.6 Gbps
+theoretical
+
+
+
+MU multiple user
+MIMO multiple-input-multiple-output technology uses multiple antennas for higher speeds.
+OFDMA orthogonal frequency-division multiple access multiplexing of the frequencies transmitted and received to each client to provide additional bandwidth.
+3.6 GHz, 4.9 GHz, and 5.9 GHz bands exist
+Channel bonding by combining two channels into a single channel to provide additional bandwidth.
+
+2.4Ghz optimal speed up to 300 (fast) - 750 Mbps
+5Ghz up to 1625 Mbps
+Slow Ping = 90ms - 150ms
+10-15 Mbps minimums for upstream and downstream speeds recommended per device
+
+Network Security and Encryption Types:
+Open - no password, no encryption, and open for the public to connect
+WEP Wired equivalent privacy (WEP) is an older mechanism for encrypting data sent over a wireless connection. WEP is considered vulnerable to attacks that could probably break its encryption. WEP relies on the use of a 24-bit initialization vector to secure its preshared key.
+WPA protected access (WPA) is an improved encryption scheme for protecting Wi-Fi communications designed to replace WEP. WPA uses the RC4 cipher and a temporal key integrity protocol (TKIP)
+WPA2 auto update. wpa2-aes secure, passwd 8-63 chars, open/web/hidden not secure, use guest network , connected devices 802.11i security standard. WPA2 features an improved method of key distribution and authentication for enterprise networks, though the pre-shared key method is still available for home and small office networks. WPA2 uses the improved AES cipher with counter mode with cipher-block chaining message authentication protocol (CCMP) for encryption.
+WPA3 
+WAF web application firewall
+
+Network Structure LAN:
+Eliminate Single Point of Failure.
+
+Bus
+
+Ring
+
+Star
+
+Tree
+
+Mesh
+
+Hybrid
+
+Spine/Leaf model = TOR/leaf (top of rack) switches are fully meshed to spine (backbone) switches so that intercommunication (East-West-bound traffic) between racks is only 2 hops. All switches are layer 3 switches. Load balancing. Moderately powered spine switches with many ports. Fiber cabling is normally used in data centers.
+[EW-traffic (data center), $$$ cabling]
+
+Campus model = 3-tier network (with additional 2-tier possible) for North-Sound-bound traffic (to and from internet). “Spanning Tree” loop-preventing mechanism at the 2nd layer of communication shuts off communication to keep only one of the switches open in the redundant cabling to prevent a Switching Loop (which would break the network). 
+[NS-traffic, $$$ core switches]
+-
+Internet
+Router
+Tier 3: Core Layer (one 3-tier model per campus)
+Fastest connection, low latency, high reliability
+[core layer switches]
+Tier 2: Distribution Layer (Aggregation layer)
+Routing, route filtering, interVLAN, management ACLs and IPS filtering, security policies, summarization, next-hop redundancy
+[for multilayer (layer 3) switches]
+Tier 1: Access Layer [for layer 2 switches]
+
+2-tier model / Collapsed Core model = the distribution switches do the job of core switches
+[$$redundancy for small business]
+
+Daisy-chaining Switches = no redundancy, SINGLE POINT OF FAILURE [$ for home networks]
+
+(with overlay for big tech industries)
+
+Spine/Leaf model with Overlay: network automation, Cisco ACI
+Underlay: Tier 2: Spine switches (with TOR switches fully meshed)
+Tier 1: Racks and TOR switches (layer 3)
+
+Network Structure WAN:
+
+Cable: hybrid fiber-coaxial (HFC) modem provides bi-directional data on RFoG radio frequency over glass on a coaxial cable. Delivers broadband using high bandwidth infrastructure. 
+FTTH fiber (up) to the house: provides 1Gbps+
+FTTC curb/cabinet then uses copper to supply local area (100-200Mbps)
+FTTN to the node.
+
+Satellite connection uses a VSAT very small aperture terminal microwave antenna aimed at an orbital satellite.
+
+DSL digital subscriber line uses telephone lines, RJ-11 (6 pin) connector and copper TP cables to supply internet. Connects to local switching center and multiplexes using DSLAM to the central office over high-speed cable (ex: fiber)
+Microfilter at the telephone port prevents the data signals and voice call interference.
+Mostly asymmetric (ADSL), meaning that the uplink (up to about 1.4 Mbps) is slower than the downlink (up to about 24 Mbps). Maximum distance is 3 miles.
+
+Leased Line (Legacy):
+WAN Connection from ISP reserved as sole traffic, speeds: T1=1.54 mbps, T3=43.736 mbps (European: E1=2.048, E3=34.368mbps)
+[OLD, $$$$, slow, <SD-WAN]
+
+ATM asynchronous transfer mode. Legacy technology like Leased Line. Transfers data in fixed 53-byte cells. Can transfer different types of traffic even IP packets, circuit-switched voice, and video while still maintaining QoS. SD-WAN can accomplish the same.
+[OLD, $$$, <SD-WAN]
+
+Frame Relay
+[OLD]
+
+MPLS Multi protocol label switching: The ISP will connect a router for your router to connect to. The WAN here acts like a virtual private network, but traffic is not encrypted. Applies label to packets for the carrier operating at layer 2.5. 
+[$, dedicated, <SD-WAN]
+
+Metro Ethernet: (E-Line / EVC / ELAN) Speed of cable is 1 - 10 gbps, P2P point to point line usually fiber cable offering high speeds to connect sites. Can be part of a truly connected ELAN or a Hub and Spoke design (called E-Tree). Connections are performing layer 2 functions. Endpoints are typically switches which the client must provide. 2 cables provide redundancy.
+[fast, $$$]
+
+Public Internet connection: Used with a Site-to-Site VPN to encrypt business traffic and business may contact ISP for a business connection. Still public internet, so the connection may slow and sometimes be dropped. Prioritized traffic for QoS quality of service. DIA dedicated internet access.
+[slow, $] [VPN > P2P + Frame Relay]
+
+SD-WAN software-defined WAN uses above standard internet connection but solves all of its problems. Makes Public connection obsolete and MPLS obsolete. Good for connections to public clouds. 
+[BEST, fast, >MPLS, >DIA, >ATM, $]
+
+ISDN integrated services digital network BRI basic rate interface: circuit-switched service which has usage per minute charges and long-distance call charges. Two 64kbps data channels and one 16 kbps control channel. Can dedicate one for video or calls. Useful if full-time connectivity is not needed and to upload small files once a day.
+[$$$, BACKUP for LL + Frame Relay]
+
+VDI using virtual machines as a method of provisioning workstations for corporate users
+
+Example:
+A company switches a $$$ WAN P2P connection with HQ site as sole internet → for DIA at each site with VPN and QoS for VOIP (digitizes voice calls and sends as IP packets). 
+[VOIP > PSTN public switched telephone network]
+
+Cloud:
+Cloud Types: Private, Public, Community, Hybrid
+SaaS software as a service
+IaaS: Infrastructure as a service
+PaaS: Platform as a service
+DaaS: Desktop as a service
+CX capital expenditure vs. OX operational expenditure
+On-Premises server
+
+OSI Model
+
+Layer 7: Application: [-:SMTP, -:DNS, FTP, TFTP, SNMP, TELNET, NFS, RPC]
+Layer 6: Presentation
+Layer 5: Session: [53:DNS]
+Layer 4: Transport: [-:TCP, -:UDP]
+Layer 3: Network: {Router (Gateway) knows IP addresses and sends packets} [-:ICMP:ping(echo request, echo reply), ICMP, IGMP, ARP, RARP]
+Layer 2: Data Link: Switch knows Mac addresses and sends frames [-:ARP mainly]
+Ethernet Frame: Preamble SFD, Dst., Src., Ether type, Payload, Frame check sequence
+Layer 1: Physical: Hub repeats signal through ISP cables
+
+MAC = media access control
+
+IPv6
+(128-bit hexadecimal)
+
+Reserved IPv4 Addresses:
+(32-bit)
+127.0.0.0/8 loopback testing
+10.0.0.0 Private
+169.254.255.254 APIPA dhcp error
+172.0.0.0 Private
+192.0.0.0 Private
+
+Subnetting:
+
+Class A 255.0.0.0
+(1.0.0.0 - 126.255.255.255)
+
+Class B 255.255.0.0
+(128.0.0.0 - 191.255.255.255)
+
+Class C 255.255.255.0
+(192.0.0.0 - 223.255.255.255)
+
+Class D Reserved for Multicasting
+(224.0.0.0 - 239.255.255.255) 
+
+Class E Experimental
+(240.0.0.0 - 254.255.255.255)
+
+Example:
+IPv4 192.168.1.0/24
+Subnet Mask: 255.255.255.0 = 11111111.11111111.11111111.00000000
+Split the network into 4 subnets…
+
+Subnets = Network bits → 
+← Increment = host bits left
+
+2	4	8	16	32	64	128	256
+Network bits | host bits
+1	1	0	0	0	0	0	0
+=
+128	64	32	16	8	4	2	1
+
+New subnet mask: 255.255.255.192
+SIDR notation: 192.168.1.0/26
+IP range = 192.168.1.0 - 192.168.1.255
+Increment = 64
+
+Subnet 1: 192.168.1.0 - 192.168.1.63
+Subnet 2: 192.168.1.64 - 192.168.1.127
+Subnet 3: 192.168.1.128 - 192.168.1.191
+Subnet 4: 192.168.1.192 - 192.168.1.255
+
+(2^host bits = 64 - 1 for subnet address - 1 for broadcasting address) 
+Number of hosts in each subnet: 62 usable addresses
+
+Protocols and Ports:
+
+7:ECHO
+20:TCP:FTP file transfer protocol
+21:TCP:FTP file transfer protocol, command
+22:TCP/UDP:SSH secure shell
+23:TCP:TELNET, unsecured 
+25:TCP:SMTP simple mail transfer protocol
+43:WHOIS
+53:TCP/UDP:DNS domain name system
+(67 - 68:DNS in wireshark user datagram protocol request/ack.)
+67:UDP:DHCP (server) dynamic host configuration protocol
+67:UDP:BOOTP (server) bootstrap protocol
+68:UDP:DHCP (client) dynamic host configuration protocol
+68:UDP:BOOTP (client) bootstrap protocol
+69:UDP:TFTP trivial file transfer protocol
+80:TCP:HTTP hypertext transfer protocol, computer to computer one using browser and other 
+fetching data using web server (Client request as JSON > GET, POST, PUT, DELETE > Server responds as HTTP)
+88:Kerberos (also used by Xbox Live)
+110:TCP:POP3 post office protocol
+119:TCP:NNTP network news transfer protocol
+123:UDP:NTP network time protocol
+135-139:TCP/UDP:NetBIOS 
+143:TCP/UDP:IMAP internet message access protocol
+143:TCP/UDP:IMAP4 internet message access protocol
+161-162:TCP/UDP:SNMP simple network management protocol
+179:TCP:BGP border gateway patrol (a routing protocol)
+389:LDAP lightweight directory access protocol
+443:TCP/UDP:HTTPS http over TLS/SSL secure sockets layer
+445:SMB server message block, CIFS common internet file system
+636:LDAPS lightweight directory access protocol over SSL?
+989-990:TCP:FTP over TLS/SSL 
+3074:TCP/UDP:Xbox Live
+3306:MySQL
+3389:TCP:RDP remote desktop protocol
+3724:TCP/UDP:World of Warcraft in-game voice chat.
+5000-5500:UDP:League of Legends Game Client 
+5222:TCP:PVP.net
+6112:TCP:World of Warcraft Blizzard Downloader patches
+6881-6999:TCP:World of Warcraft Blizzard Downloader patches
+8088:TCP/UDP:League of Legends Spectator Mode
+19132-19133:Minecraft version Bedrock
+25565:Minecraft version Java
+32400:TCP:Plex media access control
+33434:UDP?:Traceroute default traceroute destination port if other udp ports not available
+
+Port Ranges:
+255-1025:Windows minimum start port. 
+-665535:Windows max end port
+
+Deep Dives:
+HTTP computer to computer one using browser and other, fetching data using web server (Client request as JSON > GET, POST, PUT, DELETE > Server responds as HTTP)
+
+TCP handshake: 
+SYN, 
+SYN/ACK, 
+ACK
+Other TCP flags: FIN (closes session, no loss), RST (terminates, loss of data, cease talking)
+
+ARP address resolution protocol, broadcasted to everyone on the network. FFFF.FFFF.FFFF is the specified destination mac address for arp broadcasts.
+
+FTP-SSL file transfer protocol
+FTPS file transfer protocol
+SFTP, like FTP, file transfer protocol
+HTTPS hypertext transfer protocol, secure
+FTPS, file transfer protocol, secure
+POP3, protocol for mail 
+TCP transmission control protocol. Statistics are gathered by webpages from the user-agent info (also geographical information).
+UDP user datagram protocol, 
+TLS transport layer security 
+DNS domain name system
+Gopher
+For more network terms, open Wireshark, click Analyze, Select Display Filter Expression. Or look at protocols
+https://gitlab.com/wireshark/wireshark/-/wikis/ProtocolReference
+https://gitlab.com/wireshark/wireshark/-/wikis/PortReference
+https://gitlab.com/wireshark/wireshark/-/wikis/NetworkTroubleshooting/Overview
+https://gitlab.com/wireshark/wireshark/-/wikis/NetworkTroubleshooting
+https://gitlab.com/wireshark/wireshark/-/wikis/CaptureFilters
+https://gitlab.com/wireshark/wireshark/-/wikis/Security
+https://gitlab.com/wireshark/wireshark/-/wikis/Tools
+Bad TCP
+Out of order segment
+Duplicate segment
+retransmission
+PPP-Connection
+IPv6 Tunnel
+CHAP Challenge System
+VoIP
+GET-request
+SSH
+
+PoS point of sale technology:
+NFC near field communication for electronic devices in close proximity (card scanner).
+
+Unsorted captures:
+rpl-dio-mc-nsa-optional-tlv-dissector-sample.pcap.gz (libpcap) ICMPv6 IPv6 Routing Protocol for Low-Power and Lossy Networks (RPL) DODAG Information Object (DIO) control messages with optional type-length-value (TLV) in an Node State and Attributes (NSA) object in a Metric Container (MC). ipv4frags.pcap (libpcap) ICMP Echo request (1400B) response with Fragments (MTU=1000 on one side). tfp_capture.pcapng (libpcap) Tinkerforge protocol captures over TCP/IP and USB. NTLM.pcap (libpcap) Illustrate NTLM authentication process, based on WSS 3.0 Obsolete_Packets.cap (libpcap) Contains various obscure/no longer in common use protocols, including Banyan VINES, AppleTalk and DECnet. Apple_IP-over-IEEE_1394_Packet.pcap (libpcap) An ICMP packet encapsulated in Apple's IP-over-1394 (ap1394) protocol SkypeIRC.cap (libpcap) Some Skype, IRC and DNS traffic. ipp.pcap (libpcap) CUPS printing via IPP (test page) IrDA_Traffic.ntar (pcapng) Various IrDA packets, use Wireshark 1.3.0 (SVN revision 28866 or higher) to view 9p.cap (libpcap) Plan 9 9P protocol, various message types. EmergeSync.cap (libpcap) rsync packets, containing the result of an "emerge sync" operation on a Gentoo system afs.cap.gz (libpcap) Andrew File System, based on RX protocol. Various operations. ancp.pcap.gz (libpcap) Access Node Control Protocol (ANCP). ascend.trace.gz (Ascend WAN router) Shows how Wireshark parses special Ascend data atm_capture1.cap (libpcap) A trace of ATM Classical IP packets. bacnet-arcnet.cap (libpcap) Some BACnet packets encapsulated in ARCnet framing bfd-raw-auth-simple.pcap (libpcap) BFD packets using simple password authentication. bfd-raw-auth-md5.pcap (libpcap) BFD packets using md5 authentication. bfd-raw-auth-sha1.pcap (libpcap) BFD packets using SHA1 authentication. BT_USB_LinCooked_Eth_80211_RT.ntar.gz (pcapng) A selection of Bluetooth, Linux mmapped USB, Linux Cooked, Ethernet, IEEE 802.11, and IEEE 802.11 RadioTap packets in a pcapng file, to showcase the power of the file format, and Wireshark's support for it. Currently, Wireshark doesn't support files with multiple Section Header Blocks, which this file has, so it cannot read it. In addition, the first packet in the file, a Bluetooth packet, is corrupt - it claims to be a packet with a Bluetooth pseudo-header, but it contains only 3 bytes of data, which is too small for a Bluetooth pseudo-header. bootparams.cap.gz (libpcap) A couple of rpc.bootparamsd 'getfile' and 'whoami' requests. chargen-udp.pcap (libpcap) Chargen over UDP. chargen-tcp.pcap (libpcap) Chargen over TCP. cmp_IR_sequence_OpenSSL-Cryptlib.pcap (libpcap) Certificate Management Protocol (CMP) version 2 encapsulated in HTTP. Full "Initialization Request". cmp_IR_sequence_ OpenSSL-EJBCA.pcap (libpcap) Certificate Management Protocol (CMP) version 2 encapsulated in HTTP. Full "Initialization Request". Authentication with CRMF regToken. cmp-trace.pcap.gz (libpcap) Certificate Management Protocol (CMP) certificate requests. cmp-in-http-with-errors-in-cmp-protocol.pcap.gz (libpcap) Certificate Management Protocol (CMP) version 2 encapsulated in HTTP. Full "Initialization Request" and rejected "Key Update Request". There are some errors in the CMP packages. cmp_in_http_with_pkixcmp-poll_content_type.pcap.gz (libpcap) Certificate Management Protocol (CMP) version 2 encapsulated in HTTP. The CMP messages are of the deprecated but used content-type "pkixcmp-poll", so they are using the TCP transport style. In two of the four CMP messages, the content type is not explicitly set, thus they cannot be dissected correctly. cigi2.pcap.gz (libpcap) Common Image Generator Interface (CIGI) version 2 packets. cigi3.pcap.gz (libpcap) Common Image Generator Interface (CIGI) version 3 packets. cisco-nexus92-erspan-marker.pcap A marker packet sent from a Cisco Nexus switch running NXOS 9.2, with a non-zero ASIC relative timestamp and the corresponding UTC absolute timestamp. cisco-nexus10-erspan-marker.pcap A marker packet sent from a Cisco Nexus switch running NXOS 10, with a zero ASIC relative timestamp and the corresponding UTC absolute timestamp. ciscowl.pcap.gz (libpcap) Cisco Wireless LAN Context Control Protocol (WLCCP) version 0x0 ciscowl_version_0xc1.pcap.gz (libpcap) Cisco Wireless LAN Context Control Protocol (WLCCP) version 0xc1. Includes following base message types: SCM Advertisements, EAP Auth., Path Init, Registration configuration_test_protocol_aka_loop.pcap (libpcap) Example of an Ethernet loopback with a 'third party assist' cops-pr.cap.gz (libpcap) A sample of COPS traffic. couchbase_subdoc_multi.pcap (libpcap) A sample Couchbase binary protocol file including sub-document multipath request/responses. couchbase-create-bucket.pcapng (libpcap) A sample Couchbase binary protocol file that includes a create_bucket command. couchbase-lww.pcap (libpcap) A sample Couchbase binary protocol file including set_with_meta, del_with_meta and get_meta commands with last write wins support. couchbase-xattr.pcapng (libpcap) A sample capture of the XATTR features in the Couchbase binary protocol. dct2000_test.out (dct2000) A sample DCT2000 file with examples of most supported link types dhcp.pcap (libpcap) A sample of DHCP traffic. dhcp-and-dyndns.pcap.gz (libpcap) A sample session of a host doing dhcp first and then dyndns. dhcp-auth.pcap.gz (libpcap) A sample packet with dhcp authentication information. PRIV_bootp-both_overload.pcap (libpcap) A DHCP packet with sname and file field overloaded. PRIV_bootp-both_overload_empty-no_end.pcap (libpcap) A DHCP packet with overloaded field and all end options missing. dccp_trace.pcap.gz (libpcap) A trace of DCCP packet types. dns.cap (libpcap) Various DNS lookups. dualhome.iptrace (AIX iptrace) Shows Ethernet and Token Ring packets captured in the same file. dvmrp-conv.cap Shows Distance Vector Multicast Routing Protocol packets. eapol-mka.pcap (libpcap) EAPoL-MKA (MKA, IEEE 802.1X) traffic. epmd.pcap Two Erlang Port Mapper Daemon (EPMD) messages. Ethernet_Pause_Frame.cap Ethernet Pause Frame packets. exablaze_trailer.pcap (libpcap) A sample capture with Exablaze timestamp trailers. exec-sample.pcap The exec (rexec) protocol fw1_mon2018.cap (Solaris snoop) CheckPoint FW-1 fw monitor file (include new Encryption check points). Enable FW-1 interpretation in Ethernet protocol interpretation genbroad.snoop (Solaris snoop) Netware, Appletalk, and other broadcasts on an ethernet network. Mixed1.cap (MS NetMon) Some Various, Mixed Packets. small-system-misc-ping.etl (MS ETL) Various events, ping and browser packets. gryphon.cap (libpcap) A trace of Gryphon packets. This is useful for testing the Gryphon plug-in. hart_ip.pcap (libpcap) Some HART-IP packets, including both an UDP and TCP session. hsrp.pcap (libpcap) Some Cisco HSRP packets, including some with Opcode 3 (Advertise) . hsrp-and-ospf-in-LAN (libpcap) HSRP state changes and OSPF LSAs sent during link up/down/up. ieee802154-association-data.pcap.gz (libpcap) A device associates to a coordinator, and transmits some data frames. ipv4_cipso_option.pcap (libpcap) A few IP packets with CIPSO option. imap.cap (libpcap) A short IMAP session using Mutt against an MSX server. RawPacketIPv6Tunnel-UK6x.cap (libpcap) - Some IPv6 packets captured from the 'sit1' interface on Linux. The IPv6 packets are carried over the UK's UK6x network, but what makes this special, is the fact that it has a Link-Layer type of "Raw packet data" - which is something that you don't see everyday. iseries.cap (IBM iSeries communications trace) FTP and Telnet traffic between two AS/400 LPARS. FTPv6-1.cap (Microsoft Network Monitor) FTP packets (IPv6) FTPv6-2.cap (Microsoft Network Monitor) Some more FTP packets (IPv6) gearman.cap Gearman Protocol packets isl-2-dot1q.cap (libpcap) A trace including both ISL and 802.1q-tagged Ethernet frames. Frames 1 through 381 represent traffic encapsulated using Cisco's ISL, frames 382-745 show traffic sent by the same switch after it had been reconfigured to support 802.1Q trunking. kafka-testcases-v4.tar.gz (libpcap) Apache Kafka dissector testcases (generated with this scripts). lacp1.pcap.gz (libpcap) Link Aggregation Control Protocol (LACP, IEEE 802.3ad) traffic. linx-setup-pingpong-shutdown.pcap (libpcap) Successive setup of LINX on two hosts, exchange of packets and shutdown. llrp.cap EPCglobal Low-Level Reader Protocol (LLRP) llt-sample.pcap Veritas Low Latency Transport (LLT) frames lustre-lnet_sample.cap.gz (libpcap) Lustre Filesystem with Lustre Fileystem Network under it (tcp) macsec_cisco_trunk.pcap (libpcap) MACsec/802.1AE session, manual keys, 3750X switch-to-switch (Trustsec) forced across a half-duplex 10M hub connection, destination mac addresses can be seen for Cisco VTP, RSTP (RPVST+), CDP, EIGRP etc. mapi.cap.gz (libpcap) MAPI session w/ Outlook and MSX server, not currently decoded by Wireshark. messenger.pcap (libpcap) a few messenger example packets. metamako_trailer.pcap (libpcap) the Metamako timestamp trailer format. mms.pcap.gz (libpcap) Manufacturing Message Specification traffic. SITA-Protocols.cap (libpcap) Some SITA WAN (Societe Internationale de Telecommunications Aeronautiques sample packets (contains X.25, International Passenger Airline Reservation System, Unisys Transmittal System and Frame Relay packets) msnms.pcap (libpcap) MSN Messenger packets. MSN_CAP.xlsx (xlsx) MSN Messenger packets in xlsx format. monotone-netsync.cap.gz (libpcap) Some fragments (the full trace is > 100MB gzipped) of a checkout of the monotone sources. mpeg2_mp2t_with_cc_drop01.pcap (libpcap) MPEG2 (RFC 2250) Transport Stream example with a dropped CC packet (anonymized with tcpurify). mpls-basic.cap (libpcap) A basic sniff of MPLS-encapsulated IP packets over Ethernet. mpls-exp.cap (libpcap) IP packets with EXP bits set. mpls-te.cap (libpcap) MPLS Traffic Engineering sniffs. Includes RSVP messages with MPLS/TE extensions and OSPF link updates with MPLS LSAs. mpls-twolevel.cap (libpcap) An IP packet with two-level tagging. netbench_1.cap (libpcap) A capture of a reasonable amount of NetBench traffic. It is useful to see some of the traffic a NetBench run generates. NMap Captures.zip (libpcap) Some captures of various NMap port scan techniques. OptoMMP.pcap A capture of some OptoMMP read/write quadlet/block request/response packets. OptoMMP documentation. pana.cap (libpcap) PANA authentication session (pre-draft-15a so Wireshark 0.99.5 or before is required to view it correctly). pana-draft18.cap (libpcap) PANA authentication session (draft-18 so Wireshark 0.99.7 or later is required to view it correctly). pana-rfc5191.cap (libpcap) PANA authentication and re-authentication sequences. pim-reg.cap (libpcap) Protocol Independent Multicast, with IPv6 tunnelled within IPv6 ptpv2.pcap (libpcap) various Precision Time Protocol (IEEE 1588) version 2 packets. Public_nic (libpcap) A bunch of SSDP (Universal Plug and Play protocol) announcements. rpl_sample.cap.gz (libpcap) A RIPL sample capture. rtp_example.raw.gz (libpcap) A VoIP sample capture of a H323 call (including H225, H245, RTP and RTCP). RTP_L16_monaural_sample.pcapng (libpcap) A sample L16 monaural (44100Hz) RTP stream rtps_cooked.pcapng (libpcap) Manually generated RTPS traffic covering a range of submessages and parameters. rsvp-PATH-RESV.pcap (libpcap) A sample RSVS capture with PATH and RESV messages. sbus.pcap (libpcap) An EtherSBus (sbus) sample capture showing some traffic between the programming tool (PG5) and a PCD (Process Control Device, a PLC; Programmable Logic Controller). Ether-S-IO_traffic_01.pcap.gz (libpcap) An EtherSIO (esio) sample capture showing some traffic between a PLC from Saia-Burgess Controls AG and some remote I/O stations (devices called PCD3.T665). simulcrypt.pcap (libpcap) A SIMULCRYPT sample capture, SIMULCRYPT over TCP) on ports 8600, 8601, and 8602. TeamSpeak2.pcap (libpcap) A TeamSpeak2 capture tipc-publication-payload-withdrawal.pcap (libpcap) TIPC port name publication, payload messages and port name withdrawal. tipc-bundler-messages.pcap (libpcap) TIPCv2 Bundler Messages tipc_v2_fragmenter_messages.pcap.gz (libpcap) TIPCv2 Fragmenter Messages TIPC-over-TCP_disc-publ-inventory_sim-withd.pcap.gz (libpcap) TIPCv2 over TCP (port 666) traffic generated by the inventory simulation of the TIPC demo package. TIPC-over-TCP_MTU-discovery.pcap.gz (libpcap) TIPCv2 over TCP (port 666) - Link State messages with filler bytes for MTU discovery. toshiba.general.gz (Toshiba) Just some general usage of a Toshiba ISDN router. There are three link types in this trace: PPP, Ethernet, and LAPD. uma_ho_req_bug.cap (libpcap) A "UMA URR HANDOVER REQUIRED" packet. unistim_phone_startup.pcap (libpcap) Shows a phone booting up, requesting ip address and establishing connection with cs2k server. unistim-call.pcap (libpcap) Shows one phone calling another via cs2k server over unistim v6.pcap (libpcap) Shows IPv6 (6-Bone) and ICMPv6 packets. v6-http.cap (libpcap) Shows IPv6 (SixXS) HTTP. vlan.cap.gz (libpcap) Lots of different protocols, all running over 802.1Q virtual lans. vms_tcptrace.txt (VMS TCPtrace) Sample output from VMS TCPtrace. Mostly NFS packets. vms_tcptrace-full.txt (VMS TCPtrace) Sample output from VMS TCPtrace/full. Mostly NFS packets. vnc-sample.pcap Virtual Networking Computing (VNC) session trace vxi-11.pcap.gz (libpcap) Scan for instruments attached to an Agilent E5810A VXI-11-to-GPIB adapter. WINS-Replication-01.cap.gz (libpcap) WINS replication trace. WINS-Replication-02.cap.gz (libpcap) WINS replication trace. WINS-Replication-03.cap.gz (libpcap) WINS replication trace. wpsdata.cap (libpcap) WPS expanded EAP trace. openwire_sample.tar.gz (libpcap) ActiveMQ OpenWire trace. drda_db2_sample.tgz (libpcap) DRDA trace from DB2. starteam_sample.tgz (libpcap) StarTeam trace. rtmp_sample.tgz (libpcap) RTMP (Real Time Messaging Protocol) trace. rtmpt.pcap.bz2 (libpcap) RTMPT trace with macromedia-fsc TCP-stuff. sample-imf.pcap.gz (libpcap) SMTP and IMF capture. Also shows some MIME_multipart. smtp.pcap (libpcap) SMTP simple example. captura.NNTP.cap (libpcap) NNTP News simple example. sample-TNEF.pcap.gz (libpcap) TNEF trace containing two attachments as well as message properties. Also shows some SMTP, IMF and MIME_multipart trace. wol.pcap (libpcap) WakeOnLAN sample packets generated from both ether-wake and a Windows-based utility. zigbee-join-authenticate.pcap.gz (libpcap) Two devices join a ZigBee network and authenticate with the trust center. Network is encrypted using network keys and trust center link keys. IGMP dataset.pcap (igmp) igmp version 2 dataset yami.pcap (yami) sample packets captured when playing with YAMI4 library DHCPv6.pcap (dhcpv6) sample dhcpv6 client server transaction solicit(fresh lease)/advertise/request/reply/release/reply. dhcpv6_1.pcap (dhcpv6) sample dhcpv6 client server transaction solicit(requesting-old-lease)/advertise/request/reply/release/reply. ecpri.pcap (libpcap)eCPRI sample file. iperf3-udp.pcapng.gz (pcapng) sample capture for iPerf3 in reverse UDP mode using iperf3 -u -t 3 -c ping.online.net -p5208 -R
+
+Here are some captures of the data sent on an ADSL line by the Neufbox 6, the CPE provided by french ISP SFR. Capturing was done by running tcpdump via SSH on the 8/35 ATM VC. Sensitive informations like passwords, phone numbers, personal IP/MAC addresses... were redacted and replaced by equivalent ones (checksums were recalculated too). Used protocols includes DHCP, PPP, Ethernet, IP, ARP, L2TP, SIP, RTP, DNS, ICMP, DHCPv6, NTP, IGMPv2, ICMPv6, HTTP, HTTPS, Syslog, RADIUS... nb6-startup.pcap Includes etablishement of IPv4 and IPv6 connections, download of configuration, connection to a VoIP server... nb6-http.pcap Three different HTTP requests: first was sent on the private IPv4 network (IPoE), second was sent on the public IPv4 network, third was sent on the public IPv6 network (L2TP tunnel). nb6-telephone.pcap A brief phone call to SFR's voicemail service. nb6-hotspot.pcap Someone connecting to SFR's wireless community network. A detailed analysis of these captures, along with an explanation of how these captures were realized, is available in French here.
+
+_______HARDWARE_______________________________________________________
+Laptops: 1-4kg, 2-9lbs
+
+Tools:
+Multimeter: voltage, amperage, and resistance
+POST card is a plug-in diagnostic interface card that displays progress and error codes generated during the power-on self-test.
+Cable tester gives information like how pins set up and attenuation, noise, interference.
+Loopback plug
+
+Electrical engineering
+Conventional current is drawn as if charge comes from the positive side (to continue tradition). Actual current flows from the negative terminal. 
+MB Power Supply: +12V yellow cable, +5V red cable, +3.3V orange
+Printer: AC converted to +24VDC, +5VDC, -5VDC
+115VAC or 220VAC power into +5 VDC and -5 VDC for use by the printer's logic board, and +24 VDC to power the motors that feed the paper through the printing path in the last printer.
+
+MacBook Air: Power cable: 45W MagSafe 2 Power Adapter: input:100-240V, 50-60Hz, output:4.85V 3.05A
+
+Transistors
+P-doping adding Boron or Aluminum with valence of 3 to create a hole. N-doping adds Phosphorus with 5 valence electrons. Transistors have 3 pins (emitter, base,). There are PNP and NPN (serial numbers tell which) type transistors which use the doped connections to manipulate currents. Applying charge to the transistor will open up the other circuit to which the transistor is connected. Transistors should not exceed charge or they will be damaged. A transistor adds charges together as a kind of amplifier. Power transistors get very hot and are connected to a heat sink. 
+
+Vacuum tubes work with charge applied to a pin that heats a coil and sends electrons from the cathode shell around the coil to the anode shell. The anode shell is connected to an output pin that travels through a circuit and returns to the cathode pin.
+
+Cathode ray tubes use a coil to emit electrons from the cathode plates to the anode plates. The first anode plates accelerate the electrons and the next anode plates are angled to focus the electron beam. Magnetic plates are used to manipulate the vertical and horizontal angle of the beam. The beam fires onto a phosphorescent surface which fluoresces the color of the beam (RGB). A grate allows the beam to always line up with the pixels. The beam fires 60 times per second according to the correct pattern. 
+
+Microchips are manufactured from silicon oxide heated with carbon to high temps to remove oxygen and purify silicon. Silicon is a semiconductor and its current shell is close enough to the valence orbit that when enough energy is applied one of the 4 valence electrons can move. Silicon wafers are exposed to light and oxidized to print patterns. P-doping adding Boron or Aluminum with valence of 3 to create a hole. N-doping adds Phosphorus with 5 valence electrons. The oxidized part of the silicon is etched away and other layers are deposited for the cycle to repeat. Printed circuits are cut out from the wafer. Microchips are manufactured in a clean room where dust particles are continuously removed and air is circulated. The room is sealed off by an airlock and workers abide by strict regulations. 
+
+_______MOTHERBOARD_______________________________________________________
+
+Motherboard / MB:
+ATX advanced technology extended: width by depth 9.6”.
+Micro-ATX 9.6” x 9.6”? Backwards compatible with ATX
+BTX mb for servers
+ITX is the smaller version for home entertainment setups HTC/HTS? Uses passive cooling (heat sinks, etc. works quietly) Backwards compatible with ATX
+Mini-ITX, Nano-ITX, Pico-ITX (must use fan because it is so small)
+Raspberry Pi
+
+CPU: central processing unit
+Intel, AMD
+Ryzen, Celeron (mobile/laptop), 
+ZIF zero insertion force socket has a lever to gently align the pins of the CPU into the slots.
+LGA land grid array socket offers a grid of pins so that the CPU without pins can land on them.
+
+Components:
+MB Power Supply: +12V yellow cable, +5V red cable, +3.3V orange
+
+Memory-Controller: operates between CPU and Memory
+Older: FSB front side bus connects the CPU to the North Bridge.
+North Bridge and South Bridge
+Newer: build onto the CPU (called on-die)
+
+HDD
+ATA advanced technology attachment: used for Hard Drives and such
+PATA has 40 pin data connector and 4 pin power connector
+SATA 24 pins?
+
+Power Connector used to have cables divided by P9 and P8. Now there are more cables all on the same P1 connector. 
+
+PCIe: Peripheral Component Interface extension?: Centrally located on the MB. 
+PCI ports are perpendicular to the RAM ports
+https://acnodes.com/files/downloads/pci-express-slots1.jpg
+
+Line card (legacy) seems like a NIC and existed on separate MB.
+NIC network interface card/controller: Can be visible in Device Manager. Can be disabled in CMOS.
+
+Sound Card
+
+AGP accelerated graphics port
+GPU Video Card / Graphics Card:
+Before installing a new PCIe card to replace a video card, you should disable the old onboard video card (like a VGA card). The video RAM upgrades itself automatically.
+A dedicated video card is pricier but higher performing than an integrated video card.
+Integrated components cannot be upgraded and they access the computer’s RAM
+
+I/O input / output ports for peripheral devices
+
+CMOS: semiconductor
+Battery. Removal for 5 seconds? Will restart CMOS.
+Shunt: Removal or switching will restart CMOS.
+Password: a password can be set up in CMOS which can be removed by restarting CMOS.
+The NIC can be disabled in CMOS.
+
+Cooling: Liquid cooling system (quiet, risk), Passive cooling heat sink (quiet, low cooling), Cooling fans (loud, efficient)
+
+_______MEMORY_______________________________________________________
+
+Memory
+Caches: Speed: L1 > L2 > L3 Storage: L1 < L2 < L3 (L3 communicates to the RAM)
+32-bit architecture is limited to 4GB of data address space (RAM)
+64-bit architecture allows for ?PB of data address space 
+x64 x86 abbreviations
+
+Protocols:
+IR instruction, 
+PC address of next instruction to be fetched and executed, 
+MAR address of memory to be accessed, 
+MDR data read out into or of the correct/current? location, 
+R0 R1 general purpose registers R (n-1) 
+ALU Control 
+
+Types:
+Network
+NAS network attached storage
+
+Drives
+USB flash drives
+SDD solid state drive
+
+Magnetic Disks
+Floppy Disk: attaches to a Berg connector. Contains lever for writing which in the event of breakage can be taped over to fill the gap. Floppy takes precedence when booting, so the computer may think there is an OS on it.
+HDD Hard drive disk (external hard drive optional)
+
+Optical Discs
+CD Compact Disc can hold up to 700MB (RW x=150KB speed 24x or 32x / R 48x or 52x)
+ROM read only memory, non-volatile, can brick computer when flashed and power goes out.
+DVD discs: rewritable?
+Blu-ray discs: multiple rewrites?
+
+RAM: volatile. Clock speed measures data transfers per second
+SRAM static random access memory: used for screen buffering and information that needs to remain unchanged.k
+SO-DIMM small outline DIMM for laptops
+SDRAM synchronous dynamic RAM
+DDR SDRAM double data rate. Doubled clock cycle (184 pins)
+Rambus DRAM lost rights to DDR
+
+Configuration: 
+SIMM single inline memory module mid-90s. Contacts on either side are redundant. Generally was 32-bit data path.
+DIMM dual in-line memory module, also called a RAM stick which packages SDRAM (168 pins)
+RAID redundant array of inexpensive disks
+RAID 0 [Striping] provides NO redundancy, but increases speed/performance
+RAID 1 [Parity] Works in duplex so might be a fraction faster but will not increase performance by much.
+RAID 5 (6TB - 40 TB option) [Parity+Striping] min. 3 disks, mirrors and duplicates. 3 disks means 33% is redundant. 3x6TB = 12TB usable storage.
+western digital 4TB passport
+
+Conversions:
+100 clock speed DDR x 2 = 200 million /s (64-bit architecture) x 8 byte conversion 
+DDR 200 standard = 200 million x8 = 1.600MBps
+
+Storage Protocols:
+Bit, Register, RAM8, RAM64, RAM512, RAM4K, RAM16K, PC
+Fat32 communication for Windows to move memory to discs or USB dividing it into partitions no larger than 4GB
+Fat64 Windows newer way to partition
+xFat used for USB
+SCSI
+Small Computer System Interface (SCSI, /ˈskʌzi/ SKUZ-ee) is a set of standards for physically connecting and transferring data between computers and peripheral devices. The SCSI standards define commands, protocols, electrical, optical and logical interfaces. (Wikipedia)
+Used by Legacy servers to connect to storage, daisy chaining of many devices scsi port on the server, id numbers (1-15 on a large server)
+
+Troubleshooting:
+-Disc defragmentation is performed regularly as a background service
+-Repetitive beep on startup will indicate a RAM issue
+-S.M.A.R.T. self-monitoring and repair tool error means that the drive failure is imminent. Immediately backup the drive! Once backed up, run chkdsk to work on repairing the drive.
+-burning smell, check power supply
+-foul chemical odor, check for distended capacitor
+-no OS found
+
+_______SCREENS_______________________________________________________
+
+Screens:
+Size: Laptops are 11–14", 15–16", and 17"+.
+
+Resolution: Each LCD/LED has a native resolution that fits perfectly on the screen. If a resolution other than the native resolution is used, the screen could become squished, distorted, or have black vertical or horizontal lines filling up the excess space. 
+Device
+Aspect Ratio
+Pixel Resolution
+Most Laptops
+16:9 or 16:10
+1920 x 1080
+Older VGA monitors
+4:3
+1024 x 768
+
+
+LCD liquid crystal display, lit by fluorescent backlight because it CANNOT produce its own light
+https://www.flatpanelshd.com/pictures/OLED_LCD_lcd_panel.jpg
+
+LED light-emitting diode technology produces its own light.
+
+CRT cathode ray tube produces electrically stimulated luminescence
+https://circuitglobe.com/wp-content/uploads/2017/06/cathode-ray-tube.jpg
+
+OLED produces its own light and can be thinner than other screens. Produces deeper black than other screens. 
+
+Plasma produces its own light 
+
+_______NETWORKING EQUIPMENT____________________________________________
+
+Equipment: 
+Hubs:
+
+Layer 2 Switches:
+Speed measured in gigabits per second
+Switches: Cisco switches are measured in ports: 8-port 
+Switches store mac addresses in the CAM table (content addressable memory)
+Example Ports: Fa0/1 - Fa0/4 (FastEthernet0)
+
+Layer 3 Switches (Multilayer):
+Up to 32 - 528 ports?
+480 Gbps - 
+Cisco Products
+
+Meraki Aggregation Switches: stackable layer 3 up to 800 Gbps, cloud-managed, GUI, 32x 10 G ports
+Cisco Catalyst 3850 Fiber Series: stackable layer 2/3, 480 Gbps, 48x 10 G ports
+Beyond the Catalyst series, the most powerful switches (data center / core switches?) in the Cisco lineup are part of their Nexus series.
+
+Cisco CLI:
+Cisco command line interface
+>enable
+>show mac-address-table
+Shows CAM table
+
+Routers:
+Router: Cisco 2911 (a favorite, fat and black, ports on back), Ubiquiti (slim and silver)
+Ports: GigabitEthernet0/0
+
+Cisco Router:
+On first boot, enter
+>enable
+>show ip interface brief
+*The information will say “down” 
+>configure terminal
+
+>enable
+>show ip route
+
+>enable
+>show bgp ipv4 unicast
+
+WAP:
+Wireless access point: Cisco (access point repeats signal and sends it as radio waves)
+
+Unify/Unicast: Dream Machine
+
+Servers: Dell
+
+_______CABLES_______________________________________________________
+
+Cable types, Physical Ports, and Connectors:
+Cables and Connectors:
+Twisted Pair Ethernet cable ⇒ RJ-45 connector (8 pin), RJ-11 (6 pin, DSL)
+UTP unshielded twisted pair, copper, least protection against EMI (electromagnetic interference) interference. Common type is Cat 6 UTP?
+STP shielded twisted pair, copper
+RS-232 serial cable ⇒ DB-9 connector (9 pins)
+Coaxial cable, shielded, used for tv’s, travel underground ⇒ F type connector
+Fiber optic, uses glass to transport light ⇒ ST, SC, LC, or MTRJ connector
+HDMI
+VGA analog signal for CRT screens
+DVI digital signal
+PS/2 for mice
+Ports:
+USB universal serial bus, hot-swappable
+USB 2.0 = 4 pins
+USB 3.0 = 5 pins
+USB A → computer, USB B / Mini B → to peripherals, USB C / Lightning → Phones
+USB 1.1
+12Mbps
+Draws 2.5 W
+USB 2.0 (backwards comp.)
+480Mbps
+Draws 2.5 W
+USB 3.0 and 3.1
+5Gbps (SuperSpeed) 
+10 Gbps (SuperSpeed+)
+Deliver up to 4.5 W power
+
+Audio ports: 
+Audio in (light blue), 
+Microphone input (pink), 
+Audio out (lime), 
+Audio out (black), 
+Audio out (orange)—signal
+
+PoE = power over ethernet
+
+Ethernet Deep Dive
+https://www.youtube.com/watch?v=y8h5qY3zwic
+
+OS, Operating System:
+Task Manager Ctrl+Alt+Delete, CTRL+SHIFT+ESC, Windows+X.
+Processes can have multiple Threads. A Service will run in the background without user interaction.
+
+_______PERIPHERALS_______________________________________________________
+
+Printers
+Troubleshooting
+Laser printer:
+Paper picked up in twos and threes = too much moisture in the paper
+Blank pages = low toner
+Spontaneous reboots = bad power supply
+Paper jam error with no jammed paper = faulty sensor
+
+Projectors
+
+_______LAPTOP REPAIR_______________________________________________________
+
+Touchpad
+A touchpad has a speed setting for cursor speed, and a sensitivity setting to detect how much pressure registers as a click (Windows > Settings > Touchpad > Speed/Sensitivity)
+
+
+
+mejor
+https://www.youtube.com/watch?v=sfBXgPdOnts
+
+https://www.youtube.com/watch?v=PpdQcSYdM2k
+https://www.youtube.com/watch?v=sfBXgPdOnts
+https://www.youtube.com/watch?v=T9t7mZgmT0g
+https://www.youtube.com/watch?v=Eo9D2whmHE4
+https://www.youtube.com/watch?v=MAIwIaHs0r8
+https://www.youtube.com/watch?v=IA0kBOgPuI4
+https://www.youtube.com/watch?v=WZhNmWwb5p8
+https://www.youtube.com/watch?v=JXDUKotmsWQ
+https://www.youtube.com/watch?v=7BDab9pLbEA
+
+
+https://www.youtube.com/watch?v=3zwyf4U478o
+https://www.youtube.com/watch?v=sp09PMlLEz8
+https://www.youtube.com/watch?v=Nr14bbnIhIU
+https://www.youtube.com/watch?v=d_HHnEROy_w
+https://www.youtube.com/watch?v=3j_dElMeZG8
+https://www.youtube.com/watch?v=E6ivR6sQbTg
+https://www.youtube.com/watch?v=FOEZKGi7J50
+https://www.youtube.com/watch?v=mEegX5sL6bI
+https://www.youtube.com/watch?v=-UUi9WtvA-o
+https://www.youtube.com/watch?v=0IY58-6Mc6o
+
+
+Programming
+// example CS
+Class Main ( 
+	function void main() {
+		do Output.printString(“Hello World!”);
+		do Output.println(); // New line
+		return;
+	}
+}
+
+c++ .cpp
+
+#include <iostream>
+// this is the entry point for the main code
+int main ()
+{
+std::cout << “stringstuffhere”;
+std::cout << std::endl;
+
+const int a = 3;
+
+int sum = a + b;
+int product = a * b;
+
+/*
+long comment. Below prints sum and product
+*/
+std::cout << std::endl;
+std::cout << sum << std::endl;
+std::cout << product << std::endl;
+
+return 0;
+}
+
+*only use up to 32 to keep from overflowing
+int a = 3; declares
+a = 7; assigns new value, dont before declared, will not change with const
+
+Python
+https://runestone.academy/runestone/static/pythoned/Introduction/ComencemosConLosDatos.html
+https://docs.python.org/3/reference/index.html
+https://docs.python.org/3/tutorial/index.html
+
+>>> import math 
+>>> math.sqrt(16) 
+4.0 
+>>> 
+
+>>> print("Algoritmos y estructuras de datos") 
+Algoritmos y estructuras de datos 
+>>> 
+ 
+<%
+>>> print("Hello, world!") #save as helloworld.py >>> f = open("demofile.jpg", "rb") >>> f = open("demofile.txt", "rt") # b is binary for images, open also takes a w and x. Rt not necessary >>> #install C:\Users\Name>python --version >>> python --version >>> C:\Users\Name>python helloworld.py >>> C:\Users\Name>python >>> C:\Users\Name>py >>> print("Hello, world!") #outputs >>> exit() >>> 
+%>
+
+Free Codes
+https://lms.sabio.la/p/pw-online
+
+Free Public Courses
+Coursera Nand to Tetris
+https://lms.sabio.la
+
+Broadband 
+dial-up 
+cable modem
+
+Zócalo = CPU socket
+PGA BGA LGA connection
+
+LIF ZIF = light insertion force, zero insertion force
+
+Logical Interface
+A logical interface (LIF) Is a software entity consisting of an IP address that is associated with a number of attributes such as a role, a home port, a firewall policy, a home node, a routing group and a list of ports for failover purposes. ... Each LIF may be associated with a specific physical interface or device. 
+
+Firewall
+You can choose which ports to allow open from here
+Sofos, Cisco ASA 5506
+
+TCP data to packets
+router to router per IP 
+TCP reassembles packets
+
+
+In computer science, a data buffer (or just buffer) is a region of a physical memory storage used to temporarily store data while it is being moved from one place to another.
+In information security and programming, a buffer overflow, or buffer overrun, is an anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations.
+buffer overflow refers to memory that is written outside of the above allocated area and an underflow is the same but its outside below the allocated area
+
+vm code?
+solid state physics
+
+logic gates / puertas lógicas
+Nand, Not, And, Or, Xor, Mux, Dmux, Not16, And16, Or8Way, Mux4Way16, Mux8Way16, DMux4Way, DMux8Way
+
+xor = if exactly one input 1 outputs 1 (a-and,not-or,and-out)(b-and,not-or,and-out)
+(5 NAND or 4 NAND gates 16 transistors)
+
+boolean algebra
+karnaugh maps
+
+Logism
+
+logic unit
+HalfAdder
+FullAdder
+Add16
+Inc16
+ALU
+
+HDL
+CHIP Xor {
+	IN a, b;
+	OUT out;
+
+	PARTS:
+	Not (in=a, out=nota);
+	Not (in=b, out=notb);
+	And (a=a, b=notb, out=aAndNotb);
+	And (a=nota, b=b, out=notaAndb);
+	Or (a=aAndNotb, b=notaAndb, out=out);
+}
+
+Test Script
+output-file And.out,
+output-list a b out;
+set a 0, set b 0, eval,
+output;
+set a 0, set b 1, eval,
+output;
+set a 1, set b 0, eval,
+output;
+set a 1, set b 1, eval,
+output;
+
+Assembly
+// Computes RAM[1]=1+...+RAM[0]
+	@i
+	M=1	// i = 1
+	@sum
+	M=0	// sum = 0
+	
+(LOOP)
+	@i	// if i>RAM[0] goto STOP
+	D=M
+	@R0
+	D=D-M
+	@STOP
+	D;JGT
+	@i	// sum += i
+	D=M
+	@sum
+	M=D+M
+	@i	// i++
+	M=M+1
+	@LOOP	//goto LOOP
+	0;JMP
+	...
+
+0000000000010000
+1110111111001000
+0000000000010001
+1110101010001000
+0000000000010000
+1111110000010000
+0000000000000000
+1111010011010000
+0000000000010010
+1110001100000001
+0000000000010000
+1111110000010000
+0000000000010001
+1111000010001000
+0000000000010000
+1111110111001000
+0000000000000100
+1110101010000111
+. . . 
+
+
+Linux Terminal
+userName:~$ mkdir directoryName // makes directory
+userName:~$ cp textToArchive1.txt zipArchive  // mv moves the file into where you specify and removes it from previous location, cp copies, cp -r copies directory
+userName:~$ cp picToArchive.png zipArchive
+userName:~$ cp programToArchive.py zipArchive
+userName:~$ cp -r directoryToArchive zipArchive
+userName:~$ zip -r zipArchive.zip zipArchive
+userName:~$ arp -a // shows IP addresses within current network
+Cd ..
+Whois
+Whatis
+
+creditkarma
+Fuente: https://concepto.de/computacion/#ixzz6pb3QqX48
+https://morguefile.com/photos/Morguefile/1/computer/
+https://www.freeimages.com/search/computer
+
+python
+burp
+ctf
+loot gitrepo
+gitdumping tools
+kali machine
+shell
+attack vps
+nrock?, log?
+digital lotion
+port forwarding
+working behind a nat
+oracle offers free vps for c2 platform
+firewall
+port accessible
+connect to listener
+forge and sign jwt jason web tokens 
+pentester lab
+inspector tab in uhc
+enumerate location of public and private key
+set guest to admin
+ssh public key
+cryptography
+obsidian.md
+inet hub
+powershell
+wsl windows substitute run windows as root wsl2su/root
+pseudo/l
+ed, socket
+deep c
+base 64 decode this link
+base 64 encoding and serializing
+linux system box
+comcat enumeration
+first things to do:pseudo attack l, weird things in root directory?, enumeration scripts, manually looking at odd files, 
+reversing
+rc4
+gui
+php
+serialized php
+sweet potato, lovely, juicy
+make loops
+request module
+http proxy, rdp
+local host
+string manipulation
+inethub
+reverse pseudo
+chisel
+ducky file
+dumping
+file objects
+artifacts
+rsa private key
+pwncat
+netcat
+proxychain
+phpsploit
+buffer
+selenium browser
+jwt.io read tokens but not to modify (anything outside of 2nd column)
+Proxy tab send to jwt dropdown in plaintext
+portswigger
+lambda functions
+
+channel# msec mseg
+
+
+compiler
+
+node 
+node manager
+mpm install this and that
+
+Bits and Bytes:
+Números normales
+Código binario
+Hexadecimal
+ASCII
+0
+0000
+0
+NULL
+1
+0001
+1
+SOH
+2
+0010
+2
+STX
+3
+0011
+3
+ETX
+4
+0100
+4
+EOT
+5
+0101
+5
+ENQ
+6
+0110
+6
+ACK
+7
+0111
+7
+BEL
+8
+1000
+8
+BS
+9
+1001
+9
+HT
+10
+1010
+A
+LF
+11
+1011
+B
+VT
+12
+1100
+C
+FF
+13
+1101
+D
+CR
+14
+1110
+E
+SO
+15
+1111
+F
+SI
+
+
+Data Structures:
+Array. Each item has index number [n]
+
+Math:
+Log base 2:
+log2(1) = 0
+log2(2) = 1 because 2 = 2
+log2(4) = 2 because 2*2 = 4
+log2(8) = 3 because 2*2*2 = 8
+log2(8000) = 13?
+log3(9) = 2 because 3*3 = 9
+
+Algorithms:
+Select sort algorithm. Time increases to sort based on array size N
+O(N^2) = time to sort
+
+Merge sort. O(n log n). As the array gets larger, it does not increase the steps by as much.
+x | y = log2 (x) 
+0 | log2(0) = 0 
+1 | log2(1) = 0 
+2 | log2(2) = 1 
+4 | log2(4) = 2 
+8 | log2(8) = 3
+
+Graph search. Uses Cost or Weight to find how to efficiently travel a network. 
+Start with node with least cost (0). Disregard any path that exceeds previous cost if previous is better. 
+
+Brute force = try each one. O(n!)
+
+Notes:
+Encoding security
+Documents must not use JIS_C6226-1983, JIS_X0212-1990, HZ-GB-2312, JOHAB (Windows code page 1361), encodings based on ISO-2022, or encodings based on EBCDIC. This is because they allow ASCII code points to represent non-ASCII characters, which poses a security threat.
+
+Encoding names
+https://www.iana.org/assignments/character-sets/character-sets.xhtml
+Tested encodings
+https://encoding.spec.whatwg.org/
+
+Web Servers: Apache, Jigsaw, IIS 5 and 6.
+
+Scripting the header
+
+Langs
+JSP ASP ASP.net Java servlets 
+
+Dev Tools:
+
+Inspect Element:
+Dark mode
+Console > document.body.contentEditable = true
+Hidden password symbols, set type from password to text
+Change to mobile:
+Dots > More tools > Network conditions > Deselect automatic > Select mobile or otherwise
+
+View source:
+Type view-source: before http to view the page’s source even on mobile.
+
+Terminal
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+
+Shells:
+Thompson Shell
+Bourne Again Shell
+C Shell
+Z Shell
+
+In the last article, we have covered few useful tools like ‘rTorrent‘, ‘wget‘, ‘cURL‘, ‘w3m‘, and ‘Elinks‘. We got lots of responses to cover few other tools of the same genre, if you’ve missed the first part you can go through it.
+
+Downloading with Wget, rtorrent, apt yum dnf
+
+Applications
+.txt, pages, notepad, Nano, Vim
+
+Vim (Vi Improved editor)
+vi filename.html	opens a new html doc to edit
+I			opens editor mode
+:help			help
+ESC			exit editor mode
+V 			visual mode
+Shift+ZZ		exit and safe
+Ctrl-]			jump to text
+Ctrl-W 			change windows
+Ctrl-O / Ctrl-T		return to previous point
+:w [name]		save as
+
+HTML
+<meta charset="utf-8"/>
+https://www.w3.org/
+
+Provide a <label…> before the input form to help with text readers.
+
+Character escapes
+All character escapes begin with &# and end with ; 
+&lt; (<) 
+&gt; (>) 
+&amp; (&)
+&quot (‘’) 
+&apos (‘)
+There is a set of encoding security issues when the producer and consumer do not agree on the encoding in use, or on the way a given encoding is to be implemented. For instance, an attack was reported in 2011 where a Shift_JIS lead byte 0x82 was used to “mask” a 0x22 trail byte in a JSON resource of which an attacker could control some field. The producer did not see the problem even though this is an illegal byte combination. The consumer decoded it as a single U+FFFD and therefore changed the overall interpretation as U+0022 is an important delimiter. Decoders of encodings that use multiple bytes for scalar values now require that in case of an illegal byte combination, a scalar value in the range U+0000 to U+007F, inclusive, cannot be “masked”. For the aforementioned sequence the output would be U+FFFD U+0022. (As an unfortunate exception to this, the gb18030 decoder will “mask” up to one such byte at end-of-queue.)
+This is a larger issue for encodings that map anything that is an ASCII byte to something that is not an ASCII code point, when there is no lead byte present. These are “ASCII-incompatible” encodings and other than ISO-2022-JP and UTF-16BE/LE, which are unfortunately required due to deployed content, they are not supported. (Investigation is ongoing whether more labels of other such encodings can be mapped to the replacement encoding, rather than the unknown encoding fallback.) An example attack is injecting carefully crafted content into a resource and then encouraging the user to override the encoding, resulting in, e.g., script execution.
+Encoders used by URLs found in HTML and HTML’s form feature can also result in slight information loss when an encoding is used that cannot represent all scalar values. E.g., when a resource uses the windows-1252 encoding a server will not be able to distinguish between an end user entering “💩” and “&#128169;” into a form.
+The problems outlined here go away when exclusively using UTF-8, which is one of the many reasons that is now the mandatory encoding for all things.
+https://www.whoishostingthis.com/
+https://www.whoishostingthis.com/resources/
+
+https://hacedores.com/videojuego-te-ensena-compuertas-logicas/
+Juegos de browser
+
+https://www.amazon.es/gp/product/0262640686?tag=microsiervos-21
+http://recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena6/pdf/quincena6.pdf
+
+Scripts:
+<!DOCTYPE html>
+<html>
+<body onload="result()">
+
+<h2>Carta de amor: el juego</h2>
+
+<ol>
+<li>Guard</li>
+<li>Priest</li>
+<li>Baron</li>
+<li>Handmaid</li>
+<li>Prince</li>
+<li>King</li>
+<li>Countess</li>
+<li>Princess</li>
+</ol>
+
+<p>Tú carta es número: <span id="result"></span></p>
+
+<script>
+function result() {
+document.getElementById("result").innerHTML =
+Math.floor(Math.random() * 8 + 1);
+}
+/*
+const d = new Date();
+let day = d.getDate();
+document.getElementById("demo").innerHTML = day;
+let time = d.getTime();
+document.getElementById("demo").innerHTML = time;
+*/
+</script>
+</body>
+</html>
+
+Hacking:
+
+Cybersecurity: SOC 2 (compliance, yearly audit), ISO/IEC27001:2013, CISSP
+CISSP: Laws and Reqs > (Strategics) Policies: Statement of Mngmt Intentions (Policy Types: Advisory, Informative, Regulatory) > (Tactical) Standards
+Companies: DRATA, AVAST, 
+Hackers: P4x, FUNK project 
+US News: 
+UK Events:
+Ukraine: 
+RU Events: 
+North K Events: Server, Nanaea
+Programs: HackerU, Cyber_Insecurity, IppSec
+Attacks: DDOS, Man in the middle, Password hash, Password sniffing
+
+Vulnerabilities: 
+Log4j (minecraft) https://www.wired.com/story/lo4j-ftc-vulnerability/
+
+Forms:
+Ex: <form action = “/page.php” method = “get”></form>
+The GET method means that the input will also appear in the URL
+Use the POST method when dealing with sensitive data.
+
+
+Server side request forgery:
+File wrapper
+Ftp wrapper
+LF fire attacks
+Instructions: Web attack via local host, use ssrf to browse local host, get to ftp, ftp into box and then download private key, analyze python program to do priv-esc
+(source: hack the box forge)
+Static or dynamically generated?
+
+Php deserialization/object injection:
+Php Gadget chains, phpr
+Variables (updates?), objects (does not update?), larval
+
+Study OSCP Study CompTia Buy laptop VirtualBox NordVPN KaliLinux HackTheBox CTF capturethe Re- Wireshark Re- Python Blog Github account
+
+OCSP: Active Directory
+Privilege elevation
+
+http://www.icir.org/enterprise-tracing/download.html
+ (unsorted capture of packet headers from enterprise traffic - use the .anon files)  https://www.openpacket.org/capture/list
+ (open repository of traces particularly related to digital security)  https://packetlife.net/captures/
+ (community submissions, organized and moderated)  http://www.pcapr.net/
+ (web 2.0 for pcaps with editing, DoS, etc; powered by wireshark)  https://www.netresec.com/?page=PcapFiles
+ (great list of places to download pcap files from)  http://sysdoccap.codeplex.com/wikipage?title=System%20Overview%20Document%20Scenario%20Captures
+ (Microsoft System Overview Document captures).  Collection of Pcap files from malware analysis (You will need to contact Mila for the password to extract the files.)  https://gitlab.com/wireshark/wireshark/-/issues
+ Added as attachments to recreate bug or test a fix.  
+https://www.activecountermeasures.com/category/malware-of-the-day/
+ Network traffic of malware samples in the lab.  
+https://www.malware-traffic-analysis.net/about.html
+ Sharing information on malicious network traffic and malware samples. A source for pcap files and malware samples...  
+https://njrusmc.net/jobaid/jobaid.html
+ A collection of network protocols captures (like BGP, OSPF, Netflow etc) by Nick Russo  https://tshark.dev/search/pcaptable/
+ A search engine for captures on Wireshark, Wireshark bugs, and PacketLife   
+Streaming Hacking
+UHC channel, Twitch, YouTube, Facebook
+https://www.youtube.com/channel/UCSjDBJ9bjqZ40yBxv-jukNg
+Ippsec, YouTube, ippsec.rocks
+Websites for Hacking
+https://www.hackthebox.eu
+https://gitlab.com/wireshark/wireshark/-/wikis/SampleCaptures#sample-captures
+
+Programs:
+VirtualBox, WireShark
+
+Malware:
+Viruses, Worms, Attacks, Exploits:
+Ransomware
+
+slammer.pcap Slammer worm sending a DCE RPC packet. bnb dns-remoteshell.pcap Watch frame 22 Ethereal detecting DNS Anomaly caused by remoteshell riding on DNS port - DNS Anomaly detection made easy by ethereal .. Anith Anand
+Crack Traces
+teardrop.cap Packets 8 and 9 show the overlapping IP fragments in a Teardrop attack. zlip-1.pcap DNS exploit, endless, pointing to itself message decompression flaw. zlip-2.pcap DNS exploit, endless cross referencing at message decompression. zlip-3.pcap DNS exploit, creating a very long domain through multiple decompression of the same hostname, again and again. can-2003-0003.pcap Attack for CERT advisory CA-2003-03
+Sniffing
+Neufbox
+Tcpdump (-w/-i/-c)
+scp
+Automated tooling
+ics
+Tlc 150 command
+Wordpress Hacking
+xml-rcs.php backdoor in wordpress
+Low-octane.py
+Wordpress.org
+nmap
+Bash
+Calling commands
+Shell
+Mapping to commands?
+Enumerate
+Disambiguate
+
+ctf
+
+Metasplit
+Rcs repository
+
+Gobuster
+Id3 
+rxr
+docko
+Atg command?
+Tank gauge
+Zscaler
+Acutenix
+Honeypot
+
+Pwntools ponetools 
+Bitterman
+
+Github
+Buff
+
+pseudo/l when shell
+Priv esc
+
+UNIX Socket
+Notes.txt
+Commandmap
+
+Book: black box thinking
+
+
+Wordpress will not list .htmls but list out what plugins content?
+
+Dont run nmap on ics devices (connects to random port and blacks out / knocks out)?
+
+drwxr-xr-x
+#d rxx = user, r-x = group, --- = other
+drwxr---+
+#+ means extended permissions
+#getfacl means get file acl allows other uses when one has e
+#bash, nmap, enum / enumerate, etc
+#su likely to work
+#ssh if no su
+su - roy
+#su - roy the dash takes the place of roy instead of remaining as the user you were, use dashes when switching users
+#search page source for Wordpress
+#amz = amazon
+#bash = command language interpreter for GNU
+#sh = unix shell
+#GNU = not unix
+#shell exposes OS services use a CLI = command-line interface or GUI
+
+Squirrel threat hunting
+Jacks vods threathunting.net / threathunter.net
+Brian Krebs
+Neal Linked In hacking
+Pentesting Student Iand E Starter Pass EJPT
+Lilly EJPT (neal)
+Hackme 
+
+Box and IPv6-Tunnel:
+Kommen wir weiter: die IPv6-Verbindung. Es wird eine PPP-Verbindung ähnlich der ersten aufgebaut, nur dass die PPP-Anmeldung nicht mit "ppp /", sondern mit "ipv6 /" beginnt. Der BAS will dies jedoch nicht und schickt uns eine "Nak Configuration" und einen "Protocol Reject", wenn wir uns in IPv6 verbinden wollen, ich nehme an, dass es IPv6 noch nicht nativ unterstützt. Daher wird der Tunnel verwendet.
+
+Software:
+Veterinary Clinics IDEXX Cornerstone, Weave, Cubex https://info.cubex.biz/01vet-customer-portal-video-library-01
+Hospitals: Centricity, Infinity?
+Small Businesses: Personify WildApricot
+#MedOffice
+
+Advice:
+#Request library in python cant use the file wrapper or ftp wrapper
+#The following lines are desirable for IPv6 capable hosts
+::1 localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02 ip6-allrouters
+# Schließlich wird die Konfiguration für SIP, die in cfgnb4sip.xml enthalten ist, abgerufen. Jemand hat ein Skript gepostet , um das Passwort zu entschlüsseln. Wir können sehen, dass es nach dem Inhalt der Variablen <rand> und <password> sucht, aber auch einen anderen Schlüssel für jede Neufbox verwendet, der im Flash-Speicher vorhanden und mit dem MAC verknüpft ist Adresse (aus diesem Grund sollten Sie niemals einen bestimmten Teil des NVRAM der Box ohne Backup löschen oder neu schreiben, da Sie sonst Gefahr laufen, diesen Schlüssel zu verlieren).
+#Script begins with K, it is executed on shut down of program
+#Script begins with S, it is executed on start of program
+
+Data Recovery
+Tell client diagnosis or steps, estimate chance of success, ready by next day.
+Services: Data recovery, RAM installation, SSD installation, new drives, USB servicing
+$175+tax+shipping (for usb recovery), 
+
+Repair:
+Apple A1226 (2008) 
+-problem with 8600M GT GPU failure causes machine to not turn on
+-hinge-frame connection breakage
+8600M GT GPU faulty
