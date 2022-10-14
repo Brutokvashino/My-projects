@@ -54,14 +54,6 @@ https://en.wikipedia.org/wiki/ASCII
 Reddit/ Troubleshooting
 Network Chuck CCNA Course
 
-News:
-scitech daily.com unusual microcrystals discovered in meteorite dust
-Npr how the us made a battery discovery then gave the tech to china
-Phys.org dna scientists find solution to building superconductor
-Space.com planets made of dark matter
-Apnews.com un nuclear chief ukraine nuclear plant is out of control
-the hill.com long covid comes in three forms
-
 Server:
 https://www.youtube.com/watch?v=zPmqbtKwtgw server from old windows with Pulseway
 
@@ -262,33 +254,6 @@ Sudo = temporarily get root privilege, is not just for macs
 ettercap = ma in the middle, all data transactions go through this comp before out into the world, used with Wireshark
 MAC address = hardware address for all computers or devices, comes before IP
 
-Commands (Kali):
-Nmap -sP [ip address]
-Sudo 
-Nmap -sA = an aggressive scan, creates a lot of traffic
--p- = for ports
--sS = port scan (still legal)
-Man ettercap
-Sudo ettercap
-Arp poisoning
-​​
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 _______HISTORY_______________________________________________________
 
 1969 - ARPANET is invented by Dep. of Defense
@@ -317,20 +282,11 @@ CABLE
 Dial-Up 
 
 
-
-
-
-
-
-
 56 Kbps
 
 
 CABLE
 Fixed wire
-
-
-
 
 
 
@@ -344,18 +300,11 @@ DSL
 
 
 
-
-
-
-
-
 1.4/24 Mbps
 100 Mbps
 Max 3 miles
 SAT
 Satellite 
-
-
 
 
 
@@ -1028,33 +977,6 @@ Touchpad
 A touchpad has a speed setting for cursor speed, and a sensitivity setting to detect how much pressure registers as a click (Windows > Settings > Touchpad > Speed/Sensitivity)
 
 
-
-mejor
-https://www.youtube.com/watch?v=sfBXgPdOnts
-
-https://www.youtube.com/watch?v=PpdQcSYdM2k
-https://www.youtube.com/watch?v=sfBXgPdOnts
-https://www.youtube.com/watch?v=T9t7mZgmT0g
-https://www.youtube.com/watch?v=Eo9D2whmHE4
-https://www.youtube.com/watch?v=MAIwIaHs0r8
-https://www.youtube.com/watch?v=IA0kBOgPuI4
-https://www.youtube.com/watch?v=WZhNmWwb5p8
-https://www.youtube.com/watch?v=JXDUKotmsWQ
-https://www.youtube.com/watch?v=7BDab9pLbEA
-
-
-https://www.youtube.com/watch?v=3zwyf4U478o
-https://www.youtube.com/watch?v=sp09PMlLEz8
-https://www.youtube.com/watch?v=Nr14bbnIhIU
-https://www.youtube.com/watch?v=d_HHnEROy_w
-https://www.youtube.com/watch?v=3j_dElMeZG8
-https://www.youtube.com/watch?v=E6ivR6sQbTg
-https://www.youtube.com/watch?v=FOEZKGi7J50
-https://www.youtube.com/watch?v=mEegX5sL6bI
-https://www.youtube.com/watch?v=-UUi9WtvA-o
-https://www.youtube.com/watch?v=0IY58-6Mc6o
-
-
 Programming
 // example CS
 Class Main ( 
@@ -1506,197 +1428,6 @@ Juegos de browser
 
 https://www.amazon.es/gp/product/0262640686?tag=microsiervos-21
 http://recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena6/pdf/quincena6.pdf
-
-Scripts:
-<!DOCTYPE html>
-<html>
-<body onload="result()">
-
-<h2>Carta de amor: el juego</h2>
-
-<ol>
-<li>Guard</li>
-<li>Priest</li>
-<li>Baron</li>
-<li>Handmaid</li>
-<li>Prince</li>
-<li>King</li>
-<li>Countess</li>
-<li>Princess</li>
-</ol>
-
-<p>Tú carta es número: <span id="result"></span></p>
-
-<script>
-function result() {
-document.getElementById("result").innerHTML =
-Math.floor(Math.random() * 8 + 1);
-}
-/*
-const d = new Date();
-let day = d.getDate();
-document.getElementById("demo").innerHTML = day;
-let time = d.getTime();
-document.getElementById("demo").innerHTML = time;
-*/
-</script>
-</body>
-</html>
-
-Hacking:
-
-Cybersecurity: SOC 2 (compliance, yearly audit), ISO/IEC27001:2013, CISSP
-CISSP: Laws and Reqs > (Strategics) Policies: Statement of Mngmt Intentions (Policy Types: Advisory, Informative, Regulatory) > (Tactical) Standards
-Companies: DRATA, AVAST, 
-Hackers: P4x, FUNK project 
-US News: 
-UK Events:
-Ukraine: 
-RU Events: 
-North K Events: Server, Nanaea
-Programs: HackerU, Cyber_Insecurity, IppSec
-Attacks: DDOS, Man in the middle, Password hash, Password sniffing
-
-Vulnerabilities: 
-Log4j (minecraft) https://www.wired.com/story/lo4j-ftc-vulnerability/
-
-Forms:
-Ex: <form action = “/page.php” method = “get”></form>
-The GET method means that the input will also appear in the URL
-Use the POST method when dealing with sensitive data.
-
-
-Server side request forgery:
-File wrapper
-Ftp wrapper
-LF fire attacks
-Instructions: Web attack via local host, use ssrf to browse local host, get to ftp, ftp into box and then download private key, analyze python program to do priv-esc
-(source: hack the box forge)
-Static or dynamically generated?
-
-Php deserialization/object injection:
-Php Gadget chains, phpr
-Variables (updates?), objects (does not update?), larval
-
-Study OSCP Study CompTia Buy laptop VirtualBox NordVPN KaliLinux HackTheBox CTF capturethe Re- Wireshark Re- Python Blog Github account
-
-OCSP: Active Directory
-Privilege elevation
-
-http://www.icir.org/enterprise-tracing/download.html
- (unsorted capture of packet headers from enterprise traffic - use the .anon files)  https://www.openpacket.org/capture/list
- (open repository of traces particularly related to digital security)  https://packetlife.net/captures/
- (community submissions, organized and moderated)  http://www.pcapr.net/
- (web 2.0 for pcaps with editing, DoS, etc; powered by wireshark)  https://www.netresec.com/?page=PcapFiles
- (great list of places to download pcap files from)  http://sysdoccap.codeplex.com/wikipage?title=System%20Overview%20Document%20Scenario%20Captures
- (Microsoft System Overview Document captures).  Collection of Pcap files from malware analysis (You will need to contact Mila for the password to extract the files.)  https://gitlab.com/wireshark/wireshark/-/issues
- Added as attachments to recreate bug or test a fix.  
-https://www.activecountermeasures.com/category/malware-of-the-day/
- Network traffic of malware samples in the lab.  
-https://www.malware-traffic-analysis.net/about.html
- Sharing information on malicious network traffic and malware samples. A source for pcap files and malware samples...  
-https://njrusmc.net/jobaid/jobaid.html
- A collection of network protocols captures (like BGP, OSPF, Netflow etc) by Nick Russo  https://tshark.dev/search/pcaptable/
- A search engine for captures on Wireshark, Wireshark bugs, and PacketLife   
-Streaming Hacking
-UHC channel, Twitch, YouTube, Facebook
-https://www.youtube.com/channel/UCSjDBJ9bjqZ40yBxv-jukNg
-Ippsec, YouTube, ippsec.rocks
-Websites for Hacking
-https://www.hackthebox.eu
-https://gitlab.com/wireshark/wireshark/-/wikis/SampleCaptures#sample-captures
-
-Programs:
-VirtualBox, WireShark
-
-Malware:
-Viruses, Worms, Attacks, Exploits:
-Ransomware
-
-slammer.pcap Slammer worm sending a DCE RPC packet. bnb dns-remoteshell.pcap Watch frame 22 Ethereal detecting DNS Anomaly caused by remoteshell riding on DNS port - DNS Anomaly detection made easy by ethereal .. Anith Anand
-Crack Traces
-teardrop.cap Packets 8 and 9 show the overlapping IP fragments in a Teardrop attack. zlip-1.pcap DNS exploit, endless, pointing to itself message decompression flaw. zlip-2.pcap DNS exploit, endless cross referencing at message decompression. zlip-3.pcap DNS exploit, creating a very long domain through multiple decompression of the same hostname, again and again. can-2003-0003.pcap Attack for CERT advisory CA-2003-03
-Sniffing
-Neufbox
-Tcpdump (-w/-i/-c)
-scp
-Automated tooling
-ics
-Tlc 150 command
-Wordpress Hacking
-xml-rcs.php backdoor in wordpress
-Low-octane.py
-Wordpress.org
-nmap
-Bash
-Calling commands
-Shell
-Mapping to commands?
-Enumerate
-Disambiguate
-
-ctf
-
-Metasplit
-Rcs repository
-
-Gobuster
-Id3 
-rxr
-docko
-Atg command?
-Tank gauge
-Zscaler
-Acutenix
-Honeypot
-
-Pwntools ponetools 
-Bitterman
-
-Github
-Buff
-
-pseudo/l when shell
-Priv esc
-
-UNIX Socket
-Notes.txt
-Commandmap
-
-Book: black box thinking
-
-
-Wordpress will not list .htmls but list out what plugins content?
-
-Dont run nmap on ics devices (connects to random port and blacks out / knocks out)?
-
-drwxr-xr-x
-#d rxx = user, r-x = group, --- = other
-drwxr---+
-#+ means extended permissions
-#getfacl means get file acl allows other uses when one has e
-#bash, nmap, enum / enumerate, etc
-#su likely to work
-#ssh if no su
-su - roy
-#su - roy the dash takes the place of roy instead of remaining as the user you were, use dashes when switching users
-#search page source for Wordpress
-#amz = amazon
-#bash = command language interpreter for GNU
-#sh = unix shell
-#GNU = not unix
-#shell exposes OS services use a CLI = command-line interface or GUI
-
-Squirrel threat hunting
-Jacks vods threathunting.net / threathunter.net
-Brian Krebs
-Neal Linked In hacking
-Pentesting Student Iand E Starter Pass EJPT
-Lilly EJPT (neal)
-Hackme 
-
-Box and IPv6-Tunnel:
-Kommen wir weiter: die IPv6-Verbindung. Es wird eine PPP-Verbindung ähnlich der ersten aufgebaut, nur dass die PPP-Anmeldung nicht mit "ppp /", sondern mit "ipv6 /" beginnt. Der BAS will dies jedoch nicht und schickt uns eine "Nak Configuration" und einen "Protocol Reject", wenn wir uns in IPv6 verbinden wollen, ich nehme an, dass es IPv6 noch nicht nativ unterstützt. Daher wird der Tunnel verwendet.
 
 Software:
 Veterinary Clinics IDEXX Cornerstone, Weave, Cubex https://info.cubex.biz/01vet-customer-portal-video-library-01
