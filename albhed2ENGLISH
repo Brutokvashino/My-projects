@@ -1,4 +1,4 @@
-txt = "YOU CAN TYPE WHAT YOU WANT TO SAY IN LOWERCASE IF IT IS IN AL-BHED. uin vydran frelr ynd eh rayjah, rymmufat pa dro hysa. dro gehktus lusa, dro femm pa tuha eh ayndr, yc ed ec eh rayjah. keja ic drec tyo uin tyemo pnayt. yht vunkeja ic uin tapdc, yc fa vunkeja uin tapdunc. yht mayt ic hud ehdu dasbdydeuh, pid tamejan ic vnus ajem: vun dreha ec dra gehktus, yht dra bufan, yht dra kmuno, vun ajan. ysah."
+txt = input("Enter your Al-Bhed text using lowercase characters to translate it into English.")
 aa = txt.replace("y", "A") 
 ab = aa.replace("p", "B") 
 ac = ab.replace("l", "C") 
