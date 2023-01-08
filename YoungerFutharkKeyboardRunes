@@ -1,4 +1,4 @@
-txt = "our father which art in heaven, hallowed be thy name. thy kingdom come, thy they will be done on earth, as it is in heaven. give us this day our daily bread. and forgive us our debts, as we forgive our debtors. and lead us not into temptation, but deliver us from evil: for thine is the kingdom, and the power, and the glory, for ever. amen."
+txt = input("What do you want to write with runes?")
 a = txt.replace("th", "ᚦ")
 b = a.replace("er", "ᛁᛦ")
 c = b.replace("ur", "ᚢᛦ")
